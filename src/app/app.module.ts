@@ -21,6 +21,7 @@ import { ArticulosFamiliasComponent } from "./components/articulos-familias/arti
 import { ModalDialogComponent } from "./components/modal-dialog/modal-dialog.component";
 import { EmpresasComponent } from './components/empresas/empresas.component';
 import { EmpresaService } from './services/empresa.service';
+import { ProbandoComponent } from './components/probando/probando.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { EmpresaService } from './services/empresa.service';
     ArticulosFamiliasComponent,
     ModalDialogComponent,
     EmpresasComponent,
+    ProbandoComponent,
   ],
   imports: [
     BrowserModule,

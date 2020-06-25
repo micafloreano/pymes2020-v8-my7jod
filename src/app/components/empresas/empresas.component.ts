@@ -73,18 +73,16 @@ export class EmpresasComponent implements OnInit {
       window.alert("Empresa grabada");
       this.Listar();
     } );
-   
-   
-   
-   
-    
+
   }
+
+  
   Eliminar(IdEmpresa){
-    this.empresasService.delete(IdEmpresa).suscribe((res: string) =>{
+    this.empresasService.delete(IdEmpresa).subscribe((res: string) =>{
       this.Volver();
       this.getEmpresa();
       window.alert("registro eliminado");
-    })
+    });
   }
 
 

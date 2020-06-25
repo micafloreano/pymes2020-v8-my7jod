@@ -30,7 +30,7 @@ export class EmpresaService {
   }
   
   delete(Id){
-    return this.hhtpCliente.delete(this.resourceUrl + Id)
+    return this.hhtpCliente.delete(this.resourceUrl +'/' + Id)
   }
 
 
